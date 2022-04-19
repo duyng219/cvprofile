@@ -13,6 +13,7 @@ Check `package.json` to make sure the package is installed
 In the scripts section in `package.json`
 
 Let's add two options:
+
 ###`"predeploy": "react-scripts build"` 
 
 and 
