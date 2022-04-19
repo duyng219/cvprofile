@@ -14,11 +14,11 @@ In the scripts section in `package.json`
 
 Let's add two options:
 
-###`"predeploy": "react-scripts build"` 
+`"predeploy": "react-scripts build"` 
 
 and 
 
-###`"deploy": "gh-pages -d build"`
+`"deploy": "gh-pages -d build"`
 
 For example: 
 `"scripts": {
@@ -34,7 +34,8 @@ Create `.env` file at the root of the Project
 
 Add `PUBLIC_URL="."` into the file `.env`
 
-Finally, use the command `npm run deploy` to deploy the React app to the Github page
+Finally, use the command: 
+###`npm run deploy` to deploy the React app to the Github page
 
 At the repository, go to Setting -> Pages
 You will see the link of the website
