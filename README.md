@@ -30,12 +30,15 @@ For example:
     "deploy": "gh-pages -d build"
   },`
 
-Create ### `.env` file at the root of the Project
+Create 
+### `.env` file at the root of the Project
 
-Add ### `PUBLIC_URL="."` into the file `.env`
+Add 
+### `PUBLIC_URL="."` into the file `.env`
 
 Finally, use the command: 
-### `npm run deploy` to deploy the React app to the Github page
+### `npm run deploy` 
+to deploy the React app to the Github page
 
 At the repository, go to Setting -> Pages
 You will see the link of the website
